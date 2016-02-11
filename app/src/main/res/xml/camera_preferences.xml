@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference android:title="Socket ip"
+        android:key="socketip"
+        android:summary="Please provide the URL domain name"></EditTextPreference>
+    <EditTextPreference android:title="Socket port"
+        android:key="socketport"
+        android:summary="Please provide the URL domain name"></EditTextPreference>
+    <EditTextPreference android:title="URL ip"
+        android:key="urlip"
+        android:summary="Please provide the URL domain name"></EditTextPreference>
+    <EditTextPreference android:title="HTTP user"
+        android:key="httpuser"
+        android:summary="Please provide the HTTP user"></EditTextPreference>
+    <EditTextPreference android:title="HTTP password"
+        android:key="httppassword"
+        android:summary="Please provide the HTTP password"></EditTextPreference>
+</PreferenceScreen>
